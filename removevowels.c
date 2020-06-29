@@ -14,7 +14,7 @@ int main(){
 	
 	int l=strlen(word);
 	int i,j,k;
-	for(i=0;i<l;i++){
+	for(i=1;i<l;i++){
 		
 		if(word[i]=='a' || word[i]=='e' || word[i]=='i' || word[i]=='o' || word[i]=='u' || word[i]=='A' || word[i]=='E' || word[i]=='I' || word[i]=='O' || word[i]=='U'){
 			array[b]=word[i];
